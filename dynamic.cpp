@@ -1,5 +1,16 @@
-//10_ Write a program to dynamically allocate memory for a character, string and array of integer. Input all of them from the user.
-/*
+#include<iostream> // cin , cout , ...
+#include<vector> // vectors
+#include<iomanip> // input/output format , boolalpha , ...
+#include<cmath> // ceil , floor , ...
+#include <algorithm> // beging , end , reverse , ...
+#include <climits> // INT_MIN , INT_MAX , ...
+#include <cctype> // for digit functions
+#include <stack> // PUSH , POP , ...
+#include <string> // empty() , ...
+using namespace std; // Using the standard namespace
+
+// Write a program to dynamically allocate memory for a character, string and array of integer. Input all of them from the user.
+
 void printChar(string &str){
     // validation
     if(str.empty()){
@@ -94,4 +105,3 @@ int main(){
         delete[] arrayOfInt;
     }
 }
-*/
